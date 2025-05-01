@@ -5,6 +5,7 @@
   <a href="README_CN.md">中文</a>
 </div>
 
+
 This repository contains the OpenCore EFI configuration for a Hackintosh build with the following specifications. The configuration has been upgraded to OpenCore 1.0.4 and is compatible with macOS Sonoma 14.7.5.
 
 ## Hardware Specifications

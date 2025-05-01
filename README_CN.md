@@ -5,6 +5,7 @@
   <a href="README_CN.md">中文</a>
 </div>
 
+
 本仓库包含适用于以下规格黑苹果构建的 OpenCore EFI 配置。该配置已升级到 OpenCore 1.0.4 版本，并兼容 macOS Sonoma 14.7.5。
 
 ## 硬件规格
