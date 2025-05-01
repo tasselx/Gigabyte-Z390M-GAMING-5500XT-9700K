@@ -1,6 +1,6 @@
 # 技嘉 Z390M Gaming + i7-9700K + 蓝宝石镭龙 5500 XT 的黑苹果 EFI
 
-<div align="right">
+<div align="left">
   <a href="README.md">English</a> |
   <a href="README_CN.md">中文</a>
 </div>

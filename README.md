@@ -1,6 +1,6 @@
 # Hackintosh EFI for Gigabyte Z390M Gaming + i7-9700K + Sapphire Radeon 5500 XT
 
-<div align="right">
+<div align="left">
   <a href="README.md">English</a> |
   <a href="README_CN.md">中文</a>
 </div>
