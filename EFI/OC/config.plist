@@ -590,13 +590,44 @@
             <key>Force</key>
             <array/>
             <key>Patch</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Base</key>
+                    <string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
+                    <key>Comment</key>
+                    <string>Disable RTC wake scheduling</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data></data>
+                    <key>Identifier</key>
+                    <string>com.apple.driver.AppleRTC</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>19.0.0</string>
+                    <key>Replace</key>
+                    <data>ww==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+            </array>
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
                 <false/>
                 <key>AppleXcpmCfgLock</key>
-                <false/>
+                <true/>
                 <key>AppleXcpmExtraMsrs</key>
                 <false/>
                 <key>AppleXcpmForceBoost</key>
@@ -604,7 +635,7 @@
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapper</key>
                 <false/>
                 <key>DisableIoMapperMapping</key>
@@ -887,13 +918,13 @@
     <key>AdviseFeatures</key>
     <false/>
     <key>MLB</key>
-    <string>C0934919822L6RACQ</string>
+    <string>C06702063XNJFTIME</string>
     <key>MaxBIOSVersion</key>
     <false/>
     <key>ProcessorType</key>
     <integer>0</integer>
     <key>ROM</key>
-    <data>OEhMF1rK</data>
+    <data>4KzL01kS</data>
     <key>SpoofVendor</key>
     <true/>
     <key>SystemMemoryStatus</key>
@@ -901,9 +932,9 @@
     <key>SystemProductName</key>
     <string>iMac19,1</string>
     <key>SystemSerialNumber</key>
-    <string>C096J37VMN9K</string>
+    <string>C074BEWUZFK9</string>
     <key>SystemUUID</key>
-    <string>661537CC-382F-44A2-8F96-7488FA49E8C2</string>
+    <string>4A3C3EEB-D1FA-433C-809A-BA4565FB0DFB</string>
 </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -912,7 +943,7 @@
             <key>UpdateSMBIOS</key>
             <true/>
             <key>UpdateSMBIOSMode</key>
-            <string>Create</string>
+            <string>Custom</string>
             <key>UseRawUuidEncoding</key>
             <false/>
         </dict>
